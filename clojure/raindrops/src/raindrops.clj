@@ -13,12 +13,3 @@
 (defn convert [n]
   (let [factors (str/join (map #(% n) [pling plang plong]))]
     (if (empty? factors) (str n) factors)))
-
-
-(comment
-  (str/join (map #(% 21) [pling plang plong]))
-  (defsound "pling" 3)
-  (symbol "pling")
-  (create-function "testing")
-  (testing)
-  (pling 9))
