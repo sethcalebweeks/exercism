@@ -1,3 +1,4 @@
 .*
 clojure/*/target/
 !.gitignore
+ocaml/*/_build/
