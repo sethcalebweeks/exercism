@@ -12,8 +12,6 @@ fn is_yell(message: &str) -> bool {
 }
 
 pub fn reply(message: &str) -> &str {
-  let string = "    a   ".trim();
-  print!("trimmed {}", string);
   match message.trim() {
     "" => "Fine. Be that way!",
     m if is_question(m) && is_yell(m) => "Calm down, I know what I'm doing!",
