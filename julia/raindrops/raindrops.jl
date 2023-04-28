@@ -4,7 +4,6 @@ end
 
 function raindrops(number)
   [("Pling", 3), ("Plang", 5), ("Plong", 7)] |>
-  (x -> map(sound(number), x)) |>
-  (x -> join(x, "")) |>
+  (x -> map(sound(number), x)) |> join |>
   (x -> x == "" ? string(number) : x)
 end
