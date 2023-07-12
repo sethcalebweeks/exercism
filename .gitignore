@@ -2,3 +2,4 @@
 clojure/*/target/
 !.gitignore
 ocaml/*/_build/
+cpp/*/build/
