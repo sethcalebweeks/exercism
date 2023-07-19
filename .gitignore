@@ -3,3 +3,5 @@ clojure/*/target/
 !.gitignore
 ocaml/*/_build/
 cpp/*/build/
+cpp/*/test/
+cpp/*/CMakeLists.txt
