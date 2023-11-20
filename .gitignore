@@ -1,7 +1,9 @@
 .*
-clojure/*/target/
 !.gitignore
+clojure/*/target/
 ocaml/*/_build/
 cpp/*/build/
 cpp/*/test/
 cpp/*/CMakeLists.txt
+node_modules/
+**/bun.lockb
