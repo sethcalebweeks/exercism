@@ -7,3 +7,4 @@ cpp/*/test/
 cpp/*/CMakeLists.txt
 node_modules/
 **/bun.lockb
+elm/*/elm-stuff/
